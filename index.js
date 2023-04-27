@@ -7,13 +7,7 @@
 
 // let person = {
 //     name: "Joy",
-//     age: 30,let i =1;
-// let i = 1
-// do{
-//     console.log(i)
-//     ++i
-// }while(i<=5);
-
+//     age: 30,
 //     isStudent: true
 // }
 // console.log(typeof firstName);
@@ -76,7 +70,6 @@
 //     console.log("Person 1 is older than Person 2");
 // }
 
-
 // for loop -- typically used,how many you want to repeat a block of codes.
 
 // for (let i = 1; i <= 10; i++) {
@@ -98,8 +91,100 @@
 // }while(i<=5);
 
 // Switch Statement is a control flow statement that allows to test a value against a sries of cases and execute different code blocks depending on the value
-let dayOfWeek="Monday"
-switch
+// let dayOfWeek = "Monday"
+// switch (dayOfWeek) {
+//     case "Monday":
+//         console.log("It's Monday")
+//         break
+
+//     case "Tuesday":
+//         console.log("It's Tuesday")
+//         break
+//     case "Wednesday":
+//         console.log("It's Wednesday")
+//         break
+//     case "Thursday":
+//         console.log("It's Thursday")
+//         break
+//     case "Friday":
+//         console.log("It's Friday")
+//         break
+//     case "It's Weekend":
+//         console.log("It's It's Weekend")
+//         break
+//     default: console.log("It's Weekend")
+// }
+
+// let numericalGrade = prompt("Enter yor grade(0-100)");
+// let letterGrade;
+
+// switch (true) {
+//     case numericalGrade >= 90:
+//         letterGrade = "A"
+//         break
+//     case numericalGrade >= 80:
+//         letterGrade = "B"
+//         break
+//     case numericalGrade >= 70:
+//         letterGrade = "C"
+//         break
+//     case numericalGrade >= 60:
+//         letterGrade = "D"
+//         break
+//     default:
+//         letterGrade = "E"}
+
+//         console.log(letterGrade)
+
+//Function
+// function sum (){
+//     console.log("Hello World")
+// }
+// sum()
+
+// function addNumbers() {
+//     let num1 = 5
+//     let num2 = 6
+//     let sum = num1 + num2
+
+//     console.log("The sum is:" + sum)
+// }
+// addNumbers()
+
+// function SubtractNumbers() {
+//     let num1 = 9
+//     let num2 = 6
+//     let result = num1 - num2
+
+//     console.log("The difference is:" + result)
+// }
+// SubtractNumbers()
+
+
+// function ProductNumbers() {
+//     let num1 = 9
+//     let num2 = 6
+//     let result = num1 * num2
+
+//     console.log("The Product is:" + result)
+// }
+// ProductNumbers()
+
+
+// function DivNumbers() {
+//     let num1 = 9
+//     let num2 = 6
+//     let result = num1 / num2
+
+//     console.log("The Div is:" + result)
+// }
+// DivNumbers()
+
+
+
+
+
+
 
 
 
