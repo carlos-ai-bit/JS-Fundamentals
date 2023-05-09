@@ -160,7 +160,6 @@
 // }
 // SubtractNumbers()
 
-
 // function ProductNumbers() {
 //     let num1 = 9
 //     let num2 = 6
@@ -169,7 +168,6 @@
 //     console.log("The Product is:" + result)
 // }
 // ProductNumbers()
-
 
 // function DivNumbers() {
 //     let num1 = 9
@@ -180,26 +178,96 @@
 // }
 // DivNumbers()
 
+// let greet_one = "Hello"
+// let greet_two = "World"
+// console.log(greet_one)
+// setTimeout(function () {
+//     console.log("Asyncronous");
+// }, 10)
+// console.log(greet_two)
+
+// class Person {
+//     constructor(name) {
+//         this.name = name;
+//     }
+//     getName() {
+//         return this.name
+//     }
+// }
+// let john = new Person("John Doe");
+// let name = john.getName();
+// console.log(name);
+// function pen(name, color, price) {
+//     this.name = name;
+//     this.color = color;
+//     this.price = price;
+// }
+// const pen1 = new pen("marker", "black", "100sh")
+// console.log(pen1)
+
+// class car {
+//     constructor(make, model) {
+//         this.make = make;
+//         this.model = model;
+//     }
+//     start() {
+//         console.log(`starting ${this.make} ${this.model}`);
+//     }
+//     stop() {
+//         console.log(`stopping ${this.make} ${this.model}`);
+//     }
+// }
+// // function mycar(model, name) {
+// //     this.model = model;
+// //     this.name = name;
+// // }
+// const mycar = new car("Toyota", "Corola");
+// console.log(mycar);
+// mycar.start()
+// mycar.stop()
+
+class vehicle {
+    constructor(make, model, year,) {
+        this.make = make
+        this.model = model
+        this.year = year
+    }
+    start() {
+        console.log(`starting ${this.make} ${this.model} ${this.year}`)
+    }
+    stop() {
+        console.log(`stopping ${this.make} ${this.model} ${this.year}`)
+    }
+
+}
+const myvehicle = new vehicle("Toyota", "Corolla", "2010");
+console.log(myvehicle);
+myvehicle.start()
+myvehicle.stop()
+
+class car extends vehicle {
+    constructor(make, model, year, numDoors, drive) {
+        super(make, model, year,);
+        this.numDoors = numDoors
+        this.drive = drive
+    }
+    driveOffRoad() {
+        console.log(`The Car has been driven ${this.make} ${this.model} ${this.year} off-road`)
+    }
+}
+const mycar = new car("Isuzu", "Max", "2018", "5", "The Car has been driven")
+console.log(mycar)
+mycar.start()
+mycar.stop()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+class motorcycle extends vehicle {
+    constructor(make, model, year, numDoors, drive, numWheels) {
+        super(make, model, year, numDoors, drive);
+        this.numWheels = numWheels
+    }
+}
+const mymotorcycle = new motorcycle("Honda", "c-16", "2019", "0", "The motorbike has been driven", "2")
+console.log(mymotorcycle)
+mymotorcycle.start()
+mymotorcycle.stop()
